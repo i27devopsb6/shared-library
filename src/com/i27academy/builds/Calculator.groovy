@@ -17,7 +17,7 @@ class Calculator {
     // method to perform addition of 2 numbers
     def add(firstNumber, secondNumber) {
         // logical code for addition
-        return firstNumber+secondNumber
+        return firstNumber + secondNumber
     }
     // Example Usage: add(2,3)
 
