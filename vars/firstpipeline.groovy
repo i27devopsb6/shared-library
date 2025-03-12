@@ -11,7 +11,7 @@ def call(Map pipelineParams) {
         agent any 
         environment {
             // Set an environment variable APPLICATION_NAME 
-            APPLICATION_NAME =  ${pipelineParams.appName}
+            APPLICATION_NAME =  "${pipelineParams.appName}"
         }
 
         stages {
