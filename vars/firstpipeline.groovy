@@ -40,9 +40,6 @@ def call(Map pipelineParams) {
             stage ('DevDeploy') {
                 steps {
                     echo "Deploying the project to dev environment"
-                    script {
-                        newcal.call(4,5)
-                    }
                 }
             }
 
