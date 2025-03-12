@@ -4,9 +4,7 @@ def call(Map pipelineParams) {
     // an instance of the Calculator class
     Calculator calculator = new Calculator(this)
     pipeline {
-        agent {
-            label 'java-slave'
-        }
+        agent any
         environment {
             APPLICATION_NAME = "${pipelineParams.appName}"
         }
