@@ -49,9 +49,9 @@ def call(Map pipelineParams) {
 
 
 
-def newcal(thirdNumber, fourthNumber) {
-    return thirdNumber+fourthNumber
-}
+// def newcal(thirdNumber, fourthNumber) {
+//     return thirdNumber+fourthNumber
+// }
 
 
 // Variable placeholder 
